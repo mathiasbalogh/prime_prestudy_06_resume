@@ -1,0 +1,80 @@
+body, header,main,ul,li,h1,h2,h3,h4,p {
+ padding:0 0 0 0;
+ border:0 0 0 0;
+ margin:0 0 0 0;
+}
+body {
+ background-image: url("http://img10.deviantart.net/f207/i/2012/283/1/7/old_paper_00077_by_trug_bild-d5hazz9.jpg");
+ text-align:left;
+}
+
+img{
+ display:inline;
+ max-height:100%;
+ border-radius:50%;
+ transition: scale 1s ease-in-out;
+}
+img:hover{
+ transform: scale(1.5);
+}
+
+header {
+  padding:10px;
+  border-bottom-width:3px;
+  border-bottom-style:double;
+  margin:0px auto 10px auto;
+  font-family: Papyrus, Copperplate, serif;
+  font-weight:bold;
+  text-align:center;
+  background: rgb(248,248,255);
+  background: rgba(248, 248, 255, 0.7);
+}
+main {
+  font-family: "Goudy Old Style", "Century Gothic", serif;
+  margin: 10px auto 10px auto;
+  text-align:center;
+}
+#purpose{
+ margin:10px auto 20px auto;
+ border-bottom-width: 3px;
+ border-bottom-style:double;
+ padding-bottom:20px;
+ max-width:600px;
+}
+#work {
+  padding:10px;
+  border-width:3px;
+  border-style:double;
+  max-width:650px;
+  margin:10px auto 10px auto;
+  background: rgb(248,248,255);
+  background: rgba(248, 248, 255, 0.7);
+}
+#school{
+  padding:10px;
+  border-width:3px;
+  border-style:double;
+  max-width:600px;
+  margin:10px auto 10px auto;
+  background: rgb(248,248,255);
+  background: rgba(248, 248, 255, 0.7);
+}
+ul {
+  max-width: 500px;
+  text-align:left;
+  margin:10px auto 10px auto;
+  font-weight:bold;
+}
+
+h3 {
+  text-decoration: underline;
+  text-align:center;
+  margin-bottom:20px;
+}
+h1{
+  padding-top:50px;
+}
+p {
+  padding-bottom:10px;
+  font-weight:bold;
+}
