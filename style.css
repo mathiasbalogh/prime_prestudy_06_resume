@@ -78,3 +78,8 @@ p {
   padding-bottom:10px;
   font-weight:bold;
 }
+button{
+  width:400px;
+  height: 40px;
+  border-radius: 10px 10px 10px 10px;
+}
