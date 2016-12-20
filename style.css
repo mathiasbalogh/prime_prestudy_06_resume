@@ -97,6 +97,7 @@ button{
 }
 button.arrow{
   background-position: -7px -34px;
+  background-color: rgba(239,197,129, .7);
 }
 main h4{
   font-size: 20px;
