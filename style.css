@@ -83,29 +83,22 @@ button{
   width:550px;
   height: 40px;
   border-radius: 10px 10px 10px 10px;
-  background: rgba(170, 136, 0, 0.7);
+  background: rgba(255,255,255, 1);
+  background-image: url("/Users/mathiasbalogh/Desktop/prime_prestudy_06_resume/images/arrows7.png");
+  background-position: -7px -1px;
+  background-repeat: no-repeat;
   font-family: "Goudy Old Style", "Century Gothic", serif;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  border-style: double;
+  border-width: 3px;
+  border-color: black;
+}
+button.arrow{
+  background-position: -7px -34px;
 }
 main h4{
   font-size: 20px;
   margin-bottom: 0;
-}
-#arrow {
-  padding: 0 0 0 0;
-  border: 0 0 0 0;
-  margin: 0 0 0 0;
-  width: 30px;
-  height: 40px;
-  background-color: rgb(248, 248, 255);
-  background-color: rgba(248, 248, 255, 0.7);
-  background-image: url("/Users/mathiasbalogh/Desktop/prime_prestudy_06_resume/images/arrowbutton1.png");
-  background-position: -7px -225px;
-  background-repeat:no-repeat;
-  border-radius: 10px 10px 10px 10px;
-  position: relative;
-  left: 20px;
-  bottom: -40px;
 }
